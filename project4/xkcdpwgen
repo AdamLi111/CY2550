@@ -27,7 +27,7 @@ if (args.caps > 0 and args.caps <= args.words):
        countCaps += 1
 
    wordSubsets = wordSubsets + capsLists
-   random.shuffle(wordSubset)
+   random.shuffle(wordSubsets)
 
 countNum = 0
 numLists = []
