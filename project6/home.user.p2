@@ -1,0 +1,23 @@
+# Last Modified: Wed Mar 29 17:53:13 2023
+abi <abi/3.0>,
+
+include <tunables/global>
+
+/home/adamli/p2 {
+  include <abstractions/base>
+
+  /home/adamli/p2 mr,
+/tmp/* rw,
+/home/adamli/.project2/config w,
+/var/log/syslog r,
+/etc/fstab r,
+/proc/version r,
+/proc/buddyinfo r,
+/etc/crontab r,
+/run/systemd/resolve/stub-resolv.conf r,
+/etc/passwd r,
+/etc/hosts r,
+/home/adamli/template r,
+network inet tcp,
+}
+
